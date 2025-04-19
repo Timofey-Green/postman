@@ -25,7 +25,7 @@ import static org.hamcrest.Matchers.equalTo;
                     // Проверки
                     .then().log().all()
                     .statusCode(200)
-                    .body("data", equalTo("Look"))
+                    .body("data", equalTo("Loo"))
             ;
         }
     }
